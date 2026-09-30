@@ -1,0 +1,8 @@
+table, td, th, tr {
+    border: 5px solid black;
+    border-collapse: collapse;
+    border-radius: 2px;
+}
+li.Class {
+    text-align: center;
+}

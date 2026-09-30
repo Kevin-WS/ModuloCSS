@@ -1,0 +1,18 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Nabla&display=swap');
+
+* {
+    font-family: "Nabla", system-ui;
+    font-size: 25px;
+    text-align: center;
+}
+
+p{
+    color: #03045e;
+}
+body{
+    background-color: black;
+    
+}

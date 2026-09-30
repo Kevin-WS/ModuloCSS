@@ -1,0 +1,60 @@
+.container {
+    width: 700px;
+    height: 400px;
+    background-color: aqua;
+    border: solid  2px lightseagreen;
+
+    display: flex;
+
+    flex-direction: row;
+
+    flex-wrap: wrap;
+
+    /* justify-content: flex-start;
+    justify-content: center;
+    justify-content: flex-end; */
+
+    /* justify-content: space-around; */
+    /* justify-content: space-between;
+    justify-content: space-evenly; */
+
+    /* justify-content: center;
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    align-items: stretch; */
+    /* flex-direction: row-reverse; */
+
+    
+
+
+
+}
+
+.box {
+    margin: 5px;
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+
+}
+
+.box1 {
+    background-color: red;
+
+/* order: 3; */
+ /* flex-grow: 1; */
+}
+.box2 {
+    background-color: green;
+
+    /* order: 1; */
+     /* flex-grow: 1; */
+}
+
+.box3 {
+    background-color: blue;
+
+    /* order: 2; */
+    /* flex-grow: 1; */
+}

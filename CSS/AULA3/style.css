@@ -1,0 +1,7 @@
+article p {
+    text-shadow: 5px 5px 5px cyan;
+    color: blue;
+}
+p {
+    color: red;
+}

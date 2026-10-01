@@ -1,0 +1,108 @@
+.container {
+    height: 100vh;
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 10px;
+    grid-template-areas:
+        "A1 A1 A1 A1 A1 A1"
+        "A2 A2 A3 A3 A3 A3"
+        "A2 A2 A3 A3 A3 A3"
+        "A4 A4 A4 A4 A5 A5"
+        "A4 A4 A4 A4 A5 A5"
+        "A6 A6 A6 A6 A6 A6"
+    ;
+}
+
+.box1 {
+    background-color: brown;
+    grid-area: A1;
+}
+
+.box2 {
+    background-color: black;
+    grid-area: A2;
+}
+
+.box3 {
+    background-color: cadetblue;
+    grid-area: A3;
+}
+
+.box4 {
+    background-color: chocolate;
+    grid-area: A4;
+}
+
+.box5 {
+    background-color: crimson;
+    grid-area: A5;
+}
+
+.box6 {
+    background-color: darkmagenta;
+    grid-area: A6;
+}
+
+ /* .container { 
+    display: grid;
+    height: 100vh;
+    border: 1px solid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+
+    grid-template-areas:
+        "header header header header header header"
+        "main main prop prop prop prop"
+        "main main prop prop prop prop"
+        "main main main main prop prop"
+        "main main main main prop prop"
+        "aside aside aside aside article article" 
+        "aside aside aside aside article article"
+        "footer footer footer footer footer footer" 
+    ;
+}
+ 
+ .box1 {
+    background-color: black;
+    grid-area: header;
+}
+.box2 {
+    background-color: red;
+    grid-area: main;
+}
+.box3 {
+    background-color: yellow;
+    grid-area: prop;
+}
+.box4 {
+    background-color: green;
+    grid-area: footer;
+    
+}  
+ 
+.box1 {
+    background-color: aqua;
+    grid-area: header;
+ }
+ .box2 {
+    background-color: black;
+    grid-area: main;
+ }
+ .box3 {
+    background-color: yellow;
+    grid-area: prop;
+ }
+.box4 {
+    background-color: crimson;
+    grid-area: aside;
+}
+.box5 {
+    background-color: seagreen;
+    grid-area: article;
+}
+.box6 {
+    background-color: darkcyan;
+    grid-area: footer;
+} */

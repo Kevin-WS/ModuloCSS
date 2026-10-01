@@ -1,0 +1,58 @@
+
+@media screen and (max-width: 400px) {
+    .Nome1 {
+        font-size: 20px;
+    }
+    .Nome2 {
+        font-style: italic;
+        font-size: 11px;
+        text-align: center;
+    }
+}
+
+@media print and (max-width: 800px) {
+    .Nome3 {
+        color: blue;
+
+    }
+}
+@media (max-width: 600px) {
+    .Nome4 {
+        color: red;
+        font-weight: 800px;
+        text-align: right;
+    }
+}
+
+@media (min-width: 700px) {
+    .Nome5 {
+        background-color: aqua;
+        text-align: left;
+        color: purple;
+    }
+
+}
+
+/* @media (orientation: landscape) {
+    .nome6 {
+        background-color: crimson;
+        text-align: center;
+        
+    }
+    body {
+        background-color: black;
+    }
+} */
+ * {
+    color: white;
+    background-color: black;
+} 
+@media (min-width: 750px) and (max-width: 780px) {
+    .nome6 {
+        color: pink;
+        text-align: center;
+        font-weight: 900;
+        font-size: 30px;
+        background-color: aqua;
+    }
+}

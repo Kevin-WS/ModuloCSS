@@ -1,0 +1,25 @@
+
+.box1 {
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+    background: darkblue;
+    border: 5px double rgb(14, 14, 61);
+    box-shadow: 6px 7px 6px black;
+}
+.box2 {
+    width: 250px;
+    height: 250px;
+    border-top: 5px double red;
+    border-right: 10px dashed black;
+    border-bottom: 5px solid blue;
+    border-left: 10px dotted pink;
+    background-color: black;
+    border-radius: 50px;
+}
+
+h1 {
+    border-top: 2px solid pink;
+    border-right: 5px double red;
+
+}

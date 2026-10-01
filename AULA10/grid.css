@@ -1,0 +1,17 @@
+.containet {
+    display: grid;
+    height: 400px;
+    width: 700px;
+    border: 2px solid;
+    background-color: aqua;
+
+    display: grid;
+    grid-template-columns: (4,1fr);
+    grid-template-rows: (4, 1fr);
+    /* gap: 20px;
+    row-gap: 10px;
+    column-gap: 20px; */
+}
+.box {
+    border: 1px solid;
+}
